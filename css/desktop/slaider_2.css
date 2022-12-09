@@ -1,0 +1,45 @@
+.section-slaider-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.slaider-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    height: 100svh;
+}
+
+.slaider-2-img {
+    width: 30vw;
+}
+
+.slaider-2-text {
+    font-size: 45px;
+    color: #BF9460;
+    font-style:"Karla-ExtraLight";
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 992px) {
+
+    .slaider-2-text {
+        font-size: 10px;
+        color: #BF9460;
+        font-style:"Karla-ExtraLight";
+        font-weight: bold;
+    }
+
+}

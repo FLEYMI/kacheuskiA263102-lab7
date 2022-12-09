@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+    border-radius: 50px;
+    Font-family: 'Zen Dots', sans-serif;}
+.i {
+    font-size: 4vw;
+    font-weight: bolder;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.menu > div {
+    margin-right: 5%;
+    transition: .5s;
+}
+
+.menu > div:hover {
+    cursor: pointer;
+    color: #335918;
+    transition: .5s;
+}
+
+.menu > div:nth-child(3) {
+    margin-right: 0;
+}
+

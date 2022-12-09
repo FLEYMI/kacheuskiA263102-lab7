@@ -1,0 +1,17 @@
+@media screen and (max-width: 1020px) {
+    header {
+        padding: 2%;
+    }
+
+    .logo {
+        width: 20vw;
+    }
+
+    .menu > div {
+        margin-right: 5%;
+    }
+    
+    .menu > div:nth-child(3) {
+        margin-right: 0;
+    }
+}
